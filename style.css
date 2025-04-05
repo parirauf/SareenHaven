@@ -1,1 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fffaf7;
+  color: #333;
+}
 
+header {
+  background-color: #004d4d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  color: #f9e7dc;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('images/hero-banner.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: #daa520;
+  color: white;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.intro {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #004d4d;
+  color: white;
+}
