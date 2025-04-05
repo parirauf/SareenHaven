@@ -28,7 +28,7 @@ nav a {
 .hero {
   background: url('images/hero-banner.PNG') no-repeat center
   background-size: cover;
-  color: white;
+  color: black;
   text-align: center;
   padding: 5rem 2rem;
 }
