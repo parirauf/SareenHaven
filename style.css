@@ -51,7 +51,23 @@ nav a {
   border-radius: 30px;
   font-weight: bold;
 }
+.sareenhaven-btn {
+  background-color: #004d4d;     /* Deep teal */
+  color: #fffaf0;                /* Soft ivory */
+  font-size: 1.1rem;
+  padding: 0.75rem 2.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Georgia', serif;
+  transition: all 0.3s ease;
+}
 
+.sareenhaven-btn:hover {
+  background-color: #d4af37;     /* Gold */
+  color: #004d4d;                /* Deep teal text on hover */
+  transform: scale(1.05);
+}
 .intro {
   text-align: center;
   padding: 3rem 2rem;
